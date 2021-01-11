@@ -1,0 +1,571 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("/fonts/Yellowtail-Regular.ttf"); }
+
+@font-face {
+  font-family: "playDisplay";
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf"); }
+
+@font-face {
+  font-family: poppins;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf"); }
+
+@font-face {
+  font-family: playDisplayBold;
+  src: url("/fonts/PlayfairDisplay/static/PlayfairDisplay-Bold.ttf"); }
+
+/*----------------------Variables------------------*/
+/*-------------------------------------------------*/
+/*------------------Start Header-------------------*/
+@media screen and (max-width: 600px) {
+  .navbar #mainNavbar {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 2%;
+    z-index: 1;
+    background-color: #222222; } }
+
+.navbar .nav-link {
+  font-size: 1.6vw;
+  font-weight: 400;
+  cursor: pointer; }
+
+header {
+  position: relative; }
+  header .headerTitle {
+    color: white;
+    font-family: myFirstFont, "Arial";
+    z-index: 1;
+    transform: translate(-50%, -100%);
+    position: absolute;
+    left: 25%;
+    top: 75%; }
+    header .headerTitle h1 {
+      font-size: 7vw; }
+      header .headerTitle h1 span {
+        color: #f9c136; }
+
+/*------------------End Header---------------------*/
+/*------------------Start Introduction-------------*/
+.introduction {
+  margin-top: 10%;
+  margin-bottom: 15%; }
+  .introduction #figure {
+    background-color: #6fb43f;
+    padding: 10% 5%; }
+    .introduction #figure figure img {
+      display: block;
+      margin: auto auto; }
+    .introduction #figure h3 {
+      font-size: 2vw;
+      margin: 0;
+      text-align: center;
+      font-family: poppins, sans-serif; }
+
+@media screen and (max-width: 576px) {
+  #introSecondSide {
+    margin-top: 30px; }
+    #introSecondSide h4 {
+      color: #f9c136;
+      font-size: 5vw;
+      font-family: poppins, "sans-serif";
+      font-weight: bold;
+      text-align: center; }
+    #introSecondSide h3 {
+      font-size: 7vw;
+      line-height: 8vw;
+      font-family: playDisplay, sans-serif;
+      font-weight: playDisplayBold;
+      font-weight: bold;
+      width: 100%;
+      margin: 15px 0 0 0;
+      color: #253242;
+      text-align: center; }
+    #introSecondSide p {
+      color: #5f6a7b;
+      font-size: 4vw;
+      text-align: center;
+      padding: 7vw 0 6vw 0;
+      line-height: 6vw; }
+    #introSecondSide button {
+      background-color: #f89223;
+      margin: auto auto;
+      box-sizing: border-box;
+      padding: 4vw 14vw;
+      text-align: center;
+      display: block;
+      border-radius: 6px;
+      color: white;
+      font-size: 4vw;
+      font-family: Poppins, sans-serif; }
+    #introSecondSide button:hover {
+      background-color: #09003d; } }
+
+@media screen and (min-width: 576px) {
+  #introSecondSide h4 {
+    color: #f9c136;
+    font-size: 1.8vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold; }
+  #introSecondSide h3 {
+    font-size: 4.6vw;
+    line-height: 4.9vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242; }
+  #introSecondSide p {
+    color: #5f6a7b;
+    padding: 2vw 0 6vw 0; }
+  #introSecondSide button {
+    background-color: #f89223;
+    margin: 0 0;
+    box-sizing: border-box;
+    padding: 20px 38px;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.3vw;
+    font-family: Poppins, sans-serif; }
+  #introSecondSide button:hover {
+    background-color: #09003d; } }
+
+/*------------------End Introduction-------------*/
+/*--------------------Start Recipe---------------*/
+@media screen and (max-width: 576px) {
+  .Recipe > h4 {
+    color: #f9c136;
+    font-size: 5vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold;
+    text-align: center; }
+  .Recipe > h3 {
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    text-align: center;
+    margin-bottom: 40px; } }
+
+@media screen and (min-width: 576px) {
+  .Recipe > h4 {
+    color: #f9c136;
+    font-size: 1.8vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold;
+    text-align: center; }
+  .Recipe > h3 {
+    font-size: 4.6vw;
+    line-height: 4.9vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    text-align: center;
+    margin-bottom: 40px; } }
+
+.Recipe .col-12 {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4vw 0;
+  border-radius: 4%;
+  opacity: 0.9; }
+  .Recipe .col-12 h3 {
+    text-align: center;
+    color: #fefefa;
+    font-family: playDisplay, "sans-serif";
+    cursor: pointer;
+    transform: translate(0, 40%); }
+  .Recipe .col-12 h3:hover {
+    color: #282828; }
+
+/*-------------End Recipe--------------*/
+/*--------------Start Discover---------*/
+@media screen and (min-width: 576px) {
+  .Discover .col-12 h1 {
+    font-size: 4.6vw;
+    line-height: 4.9vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242; }
+  .Discover .col-12 h2 {
+    color: #f9c136;
+    font-size: 1.8vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold; }
+  .Discover .col-12 p:nth-of-type(1) {
+    color: #5f6a7b;
+    padding: 2vw 0 0 0; }
+  .Discover .col-12 p:nth-of-type(2) {
+    color: #5f6a7b;
+    padding: 0 0 0 0; } }
+
+@media screen and (max-width: 576px) {
+  .Discover .col-12 h1 {
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    text-align: center; }
+  .Discover .col-12 h2 {
+    color: #f9c136;
+    font-size: 5vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vw; }
+  .Discover .col-12 p:nth-of-type(1) {
+    color: #5f6a7b;
+    padding: 7vw 0 0 0; }
+  .Discover .col-12 p:nth-of-type(2) {
+    color: #5f6a7b;
+    padding: 0 0 0 0; } }
+
+.Discover {
+  margin-top: 80px;
+  margin-bottom: 6rem; }
+
+.Discover .col-12 button {
+  padding: 12px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px 30px 30px 30px; }
+
+.Discover .col-12 button:nth-of-type(1) {
+  background-color: #6fb43f; }
+
+.Discover .col-12 button:nth-of-type(1):hover {
+  background-color: #f89223; }
+
+.Discover .col-12 button:nth-of-type(2) {
+  background-color: #f89223; }
+
+.Discover .col-12 button:nth-of-type(2):hover {
+  background-color: #6fb43f; }
+
+/*--------------Start Discover---------*/
+/*--------------Start MostPopularRecipes---------*/
+@media screen and (min-width: 576px) {
+  .MostPopularRecipes > h1 {
+    font-size: 4.6vw;
+    line-height: 4.9vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    margin-bottom: 2rem; }
+  .MostPopularRecipes > h2 {
+    color: #f9c136;
+    font-size: 1.8vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold; } }
+
+@media screen and (max-width: 576px) {
+  .MostPopularRecipes > h1 {
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    text-align: center;
+    margin-bottom: 20px; }
+  .MostPopularRecipes > h2 {
+    color: #f9c136;
+    font-size: 5vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold;
+    text-align: center; } }
+
+.MostPopularRecipes {
+  margin-top: 90px;
+  margin-bottom: 90px; }
+  .MostPopularRecipes .card {
+    margin-bottom: 60px; }
+    .MostPopularRecipes .card .card-body .card-title {
+      text-align: center; }
+    .MostPopularRecipes .card .card-body .card-title:nth-child(2) {
+      color: #e9656e; }
+
+/*----------------End MostPopularRecipe--------------*/
+/*----------------Start appetizers-------------------*/
+.appertizer {
+  margin-bottom: 120px; }
+  .appertizer .col:nth-child(2) {
+    background-color: #222222;
+    padding-top: 4rem;
+    padding-bottom: 3.2rem; }
+    .appertizer .col:nth-child(2) h1 {
+      font-family: playDisplay,"sans-serif";
+      font-size: 3rem; }
+    .appertizer .col:nth-child(2) p {
+      font-family: poppins,'sans-serif';
+      font-size: 16px;
+      width: 400px;
+      line-height: 25px;
+      margin-top: 1.8rem;
+      margin-bottom: 1.8rem; }
+    .appertizer .col:nth-child(2) #menu {
+      margin: 0 auto;
+      padding: 25px;
+      width: 400px;
+      font-size: 17px;
+      border-radius: 20px;
+      background-color: #6FB43F;
+      font-family: poppins,'sans-serif'; }
+      .appertizer .col:nth-child(2) #menu a {
+        text-decoration: none;
+        margin-left: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: #FCFDFA;
+        cursor: context-menu; }
+      .appertizer .col:nth-child(2) #menu a:hover {
+        color: #303D27; }
+    .appertizer .col:nth-child(2) .btn {
+      color: white;
+      border-radius: 40px;
+      font-size: 1.3rem;
+      padding: 15px;
+      width: 200px;
+      margin: 0 auto;
+      display: block; }
+    .appertizer .col:nth-child(2) .btn:hover {
+      background-color: #6fb43f; }
+
+/*-----------------------End appetizers----------------------*/
+/*--------------------Start TopChef---------------------------*/
+.topChefs {
+  margin-top: 150px;
+  margin-bottom: 70px; }
+  .topChefs .col-4 a {
+    text-decoration: none;
+    color: #6fb43f; }
+  .topChefs .col-4 > h6 {
+    color: #f89223; }
+  .topChefs .col-4 > h3 {
+    font-family: playDisplay, sans-serif;
+    font-weight: bold;
+    color: #253242; }
+  .topChefs button:hover {
+    background-color: #09003d; }
+
+@media screen and (min-width: 600px) {
+  .topChefs > h1 {
+    font-size: 4.6vw;
+    line-height: 4.9vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    margin-bottom: 2rem; }
+  .topChefs > h2 {
+    color: #f9c136;
+    font-size: 1.8vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold; }
+  .topChefs button {
+    border: none;
+    background-color: #6FB43F;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 1.5vw 4vw;
+    text-align: center;
+    display: block;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Poppins, sans-serif;
+    border-radius: 30px; } }
+
+@media screen and (max-width: 576px) {
+  .topChefs > h1 {
+    font-size: 7vw;
+    line-height: 8vw;
+    font-family: playDisplay, sans-serif;
+    font-weight: playDisplayBold;
+    font-weight: bold;
+    width: 100%;
+    margin: 15px 0 0 0;
+    color: #253242;
+    margin-bottom: 3rem;
+    text-align: center; }
+  .topChefs > h2 {
+    color: #f9c136;
+    font-size: 5vw;
+    font-family: poppins, "sans-serif";
+    font-weight: bold;
+    text-align: center; }
+  .topChefs button {
+    border: none;
+    background-color: #6FB43F;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 4vw 12vw;
+    text-align: center;
+    display: block;
+    border-radius: 6px;
+    color: white;
+    font-size: 5vw;
+    font-family: Poppins, sans-serif;
+    border-radius: 30px; } }
+
+/*----------------------End TopChef-----------------*/
+/*----------------------Start Footer----------------*/
+.footer {
+  background-color: #1d1c21;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .footer .socialMedia {
+    margin: auto auto; }
+  .footer .socialMedia a {
+    margin-right: 10px; }
+  .footer .SecondPart hr {
+    margin-left: 0;
+    width: 85px; }
+  .footer .SecondPart #categorie a {
+    cursor: context-menu;
+    color: white; }
+  .footer .SecondPart #categorie a:hover {
+    color: #ebc135; }
+  .footer .thirdPart span {
+    color: #ebc135; }
+
+/*-------------------End Footer-------------------*/
+/*********************SecondPage:About Us********************/
+/*---------------------Start header-----------------*/
+header .head {
+  position: relative; }
+  header .head .topHeader {
+    width: 100%;
+    height: 200px;
+    background-color: #222222; }
+
+@media screen and (max-width: 576px) {
+  .navbar .container {
+    display: block; }
+  .navbar .navbar-brand {
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    text-align: center;
+    font-size: 40px; }
+  .navbar button {
+    display: block;
+    float: right;
+    margin-top: 50px; }
+  .navbar .collapse {
+    width: auto; }
+    .navbar .collapse .navbar-nav > .nav-item a {
+      font-size: 17px;
+      padding: 10px; } }
+
+.headTitle {
+  transform: translate(-50%, -100%);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: playDisplay, sans-serif;
+  padding: 5px 20px;
+  background-color: rgba(36, 21, 16, 0.65); }
+
+@media screen and (min-width: 600px) {
+  .head .headTitle h2 {
+    font-size: 3rem !important; } }
+
+@media screen and (max-width: 600px) {
+  .head .headTitle h2 {
+    font-size: 1rem !important; }
+  .recipesPage .col-md-3 img {
+    margin: 0 auto;
+    width: 75%;
+    display: block; }
+  #pagesMenu {
+    margin-top: 100px !important; }
+  .navbar-nav li .dropdown-menu {
+    background-color: #222222;
+    border: none;
+    margin-left: 10px; }
+    .navbar-nav li .dropdown-menu .dropdown-item {
+      color: white;
+      font-size: 130px; }
+    .navbar-nav li .dropdown-menu .dropdown-item::before {
+      Content: "- "; } }
+
+.recipeDet h3,
+h4 {
+  text-align: center; }
+
+.recipeDet h3 {
+  font-size: 1.5rem;
+  font-family: playDisplay, sans-serif;
+  font-weight: bold;
+  cursor: pointer; }
+
+.recipeDet h3:hover {
+  color: #e74d57; }
+
+.recipeDet h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e74d57;
+  font-family: poppins, sans-serif; }
+
+/*---------------------End Header---------------------*/
+/**********************End SecondPage:About US*************************/
+/***********************Start ThirdPage:Our Chef******************/
+@media screen and (max-width: 576px) {
+  .chefsPage .col-md-3 img {
+    margin: auto auto;
+    display: block; } }
+
+.chefsPage .col-md-3 {
+  position: relative; }
+  .chefsPage .col-md-3 .imgDiv {
+    background-color: #f9c136;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    opacity: 0;
+    transition: opacity 0.5s; }
+
+.chefsLinks a {
+  margin-left: 7px;
+  font-size: 20px; }
+
+.chefsLinks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .chefsLinks a {
+    color: white; }
+
+/***********************End ThirdPage:Our Chef******************/

@@ -1,0 +1,424 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("/fonts/Yellowtail-Regular.ttf");
+}
+@font-face {
+  font-family: "playDisplay";
+  src: url("/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+/*---------------Start header------------------*/
+@media screen and (max-width: 600px) {
+  .navbar #mainNavbar {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 2%;
+    z-index: 1;
+    background-color: #222222;
+  }
+}
+
+.navbar .nav-link {
+  font-size: 1.6vw;
+  font-weight: 400;
+  cursor: pointer;
+}
+header {
+  position: relative;
+}
+.headerTitle {
+  color: white;
+  font-family: myFirstFont, "Arial";
+  z-index: 1;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  left: 25%;
+  top: 75%;
+}
+.headerTitle h1 {
+  font-size: 7vw;
+}
+.headerTitle h1 span {
+  color: yellow;
+}
+/* @media only screen and (max-width: 576px) {
+  .headerTitle h1 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .headerTitle h1 {
+    font-size: 490%;
+  }
+} */
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  right: 60%;
+  bottom: 0;
+}
+.carousel-caption h4 {
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption h4 {
+    font-size: 1.5rem;
+  }
+}
+/*--------------End header---------------*/
+/*--------------Start ourIntrodution-------*/
+#figure {
+  z-index: 0;
+}
+#figure figure {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+#introSecondSide h2 {
+  color: orange;
+}
+#introSecondSide h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 400px;
+  line-height: 3rem;
+  margin: 30px 0;
+}
+
+#introSecondSide p {
+  color: grey;
+}
+#introSecondSide button {
+  background-color: #fcba03;
+  margin-top: 100px;
+  padding: 15px 20px;
+}
+#introSecondSide button:hover {
+  background-color: hsl(249, 100%, 12%);
+}
+/*------------------End outIntroduction------------*/
+/*-------------start Recipe--------------*/
+@media screen and (min-width: 600px) {
+  .Recipe {
+    margin: 150px auto;
+  }
+  .Recipe h3 {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+  }
+  .Recipe .col-12 {
+    padding: 100px 0;
+  }
+}
+.Recipe h2 {
+  color: #ffa500;
+}
+.Recipe h1 {
+  font-family: "Arial, sans-serif";
+  font-size: 70px;
+}
+
+.Recipe h3 {
+  position: absolute;
+  top: 80%;
+  right: 34%;
+}
+.Recipe h3:hover {
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .Recipe {
+    margin: 100px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Recipe .col-12 {
+    max-width: 365px;
+  }
+}
+
+.Recipe .col-12 {
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px 0;
+  border-radius: 5%;
+  opacity: 0.9;
+}
+
+.Recipe h3 {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+/*-------------End Recipe--------------*/
+/*-------------Start Discover-----------*/
+.Discover .col-12 h2 {
+  color: #ffa500;
+}
+
+@media screen and (min-width: 600px) {
+  .Discover .col-12 h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 70px;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Discover .col-12 h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 60px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .Discover .col-12 h2 {
+    color: #ffa500;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.Discover .col-12 p {
+  color: grey;
+}
+.Discover .col-12 h1 + p {
+  margin-bottom: 2rem;
+}
+.Discover .col-12 button {
+  padding: 12px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px 30px 30px 30px;
+}
+.Discover .col-12 button:nth-of-type(1) {
+  background-color: #6fb43f;
+}
+.Discover .col-12 button:nth-of-type(1):hover {
+  background-color: #f89223;
+}
+.Discover .col-12 button:nth-of-type(2) {
+  background-color: #f89223;
+}
+.Discover .col-12 button:nth-of-type(2):hover {
+  background-color: #6fb43f;
+}
+.MostPopularRecipes .card {
+}
+/****************************************************/
+/*same*/
+.MostPopularRecipes > h2 {
+  color: #ffa500;
+}
+
+@media screen and (min-width: 600px) {
+  .MostPopularRecipes > h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 70px;
+    margin-bottom: 2rem;
+  }
+}
+.MostPopularRecipes {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 600px) {
+  .MostPopularRecipes > h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 60px;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .MostPopularRecipes > h2 {
+    color: #ffa500;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.MostPopularRecipes .card .card-body .card-title {
+  text-align: center;
+}
+.MostPopularRecipes .card .card-body .card-title:nth-child(2) {
+  color: #e9656e;
+}
+.MostPopularRecipes .card {
+  margin-bottom: 60px;
+}
+/*********************************************/
+/*********************Start appetizers***************************/
+.appertizer .col:nth-child(2) {
+  background-color: #222222;
+  padding-top: 4rem;
+  padding-bottom: 3.2rem;
+}
+.appertizer .row .col h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+.appertizer .row .col p {
+  font-size: 1.3rem;
+  width: 395px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.appertizer {
+  margin-bottom: 120px;
+}
+.appertizer #menu {
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  background-color: #6fb43f;
+}
+.appertizer #menu a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+  cursor: context-menu;
+}
+.appertizer #menu a:hover {
+  color: black;
+}
+.appertizer .btn {
+  color: white;
+  border-radius: 40px;
+  font-size: 1.3rem;
+  padding: 15px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.appertizer .btn:hover {
+  background-color: #6fb43f;
+}
+/******************************************/
+.topChefs > h2 {
+  color: #ffa500;
+}
+
+@media screen and (min-width: 600px) {
+  .topChefs > h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 70px;
+    margin-bottom: 2rem;
+  }
+}
+.topChefs {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 600px) {
+  .topChefs > h1 {
+    font-family: "Arial, sans-serif";
+    font-size: 60px;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .topChefs > h2 {
+    color: #ffa500;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.topChefs .col-4 .row {
+  height: 100%;
+}
+.topChefs .col-4 a {
+  text-decoration: none;
+  color: #7cbb51;
+}
+.topChefs .col-4 > h6 {
+  color: #f89223;
+}
+.topChefs .col-4 > h3 {
+  font-family: playDisplay, sans-serif;
+  font-weight: bold;
+  color: #253242;
+}
+
+/******************************************/
+.footer {
+  background-color: hsl(252, 8%, 12%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer h1 {
+}
+.footer .socialMedia {
+  margin: auto auto;
+}
+.footer .socialMedia a {
+  margin-right: 10px;
+}
+.footer .SecondPart hr {
+  margin-left: 0;
+  width: 85px;
+}
+.footer #categorie a {
+  cursor: context-menu;
+  color: white;
+}
+
+.footer #categorie a:hover {
+  color: #ebc135;
+}
+.footer .thirdPart span {
+  color: #ebc135;
+}
+/****************************************************/
+/*********************************************************/
+.head {
+  position: relative;
+}
+.headTitle {
+  transform: translate(-50%, -100%);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: playDisplay, sans-serif;
+  padding: 5px 20px;
+  background-color: rgba(36, 21, 16, 0.65);
+}
+
+@media screen and (min-width: 600px) {
+  .head .headTitle h2 {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head .headTitle h2 {
+    font-size: 1rem !important;
+  }
+}
+.recipeDet h3,
+h4 {
+  text-align: center;
+}
+.recipeDet h3 {
+  font-size: 1.5rem;
+  font-family: playDisplay, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.recipeDet h3:hover {
+  color: #e74d57;
+}
+.recipeDet h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e74d57;
+  font-family: poppins, sans-serif;
+}

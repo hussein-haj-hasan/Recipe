@@ -24,7 +24,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.2.1"
   },
   "scripts": {
     "start": "npm run lite",

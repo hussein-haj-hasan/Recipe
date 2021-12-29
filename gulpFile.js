@@ -45,8 +45,8 @@ gulp.task("imagemin", function () {
     .pipe(gulp.dest("dist/img"));
 });
 gulp.task("copyFonts",function(){
-  gulp
-  .src("./node_modules/font-awesome/fonts/*.{ttf,woff,eof,svg}")
+  return gulp
+  .src("./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}")
   .pipe(gulp.dest("./dist/fonts"))
 })
 gulp.task("usemin", function () {
@@ -57,7 +57,7 @@ gulp.task("usemin", function () {
         return stream.pipe(
           usemin({
             css: [rev],
-            html: [
+            html: [ 
               function () {
                 return htmlmin({
                   collapseWhitespace: true,
